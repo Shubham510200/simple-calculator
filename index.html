@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculater</title>
+    <link rel="stylesheet" href="calci.css">
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/alarm.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d9c1423ae9.js" crossorigin="anonymous"></script>
+</head>
+<!-- calculater code ! -->
+<body>
+    <div id="main">
+        <div id="leftdiv">
+            <div id="main_head">
+                <h1 id="head">CALCULATOR</h1>
+            </div>
+            <div id="main_screen">
+                <input type="text" value="" id="equation" disabled>
+                <input type="text" value="0" id="inputbox">
+            </div>
+            <div id="btn">
+                <button class="btncolor" onclick="getValue('%')">%</button><button class="btncolor" onclick="clearAll()">AC</button><button class="btncolor" onclick="lastEle()"><i class="fa-regular fa-rectangle-xmark"></i></button><button class="btncolor" onclick="getValue('/')"><i class="fa-solid fa-divide"></i></button>
+                <button class="btncolor1" onclick="getValue('7')">7</button><button class="btncolor1" onclick="getValue('8')">8</button><button class="btncolor1" onclick="getValue('9')">9</button><button class="btncolor1" onclick="getValue('*')">X</button>
+                <button class="btncolor" onclick="getValue('4')">4</button><button class="btncolor" onclick="getValue('5')">5</button><button class="btncolor" onclick="getValue('6')">6</button><button class="btncolor" onclick="getValue('+')">+</button>
+                <button class="btncolor1" onclick="getValue('1')">1</button><button class="btncolor1" onclick="getValue('2')">2</button><button class="btncolor1" onclick="getValue('3')">3</button><button class="btncolor1" onclick="getValue('-')">-</button>
+                <button class="btncolor" onclick="getValue('.')">.</button><button class="btncolor2"  onclick="getHistory()"><i class="gg-alarm clock"></i></button><button class="btncolor" onclick="getValue('0')">0</button><button class="btncolor" onclick="solve()">=</button>
+            </div>
+        </div>
+        <div id="rightdiv">
+            <div id="his">
+                <h1 id="Head1">HISTORY</h1>
+            </div>
+            <div id="History_body">
+               
+                
+            </div>    
+            <div id="clearhistory">
+                <button onclick="clearHistory()" id="clean" onclick="clear_History"><i class="material-icons bin">&#xe872;</i></button>
+            </div>
+        </div>
+    </div>
+    <script src="calci.js"></script>
+</body>
+</html>

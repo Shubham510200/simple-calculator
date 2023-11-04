@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: rgb(247, 220, 188); */
+    /* background-color: black;  */
+}
+.history{
+    border: 1px solid black;
+    height: 100px;
+    width: 100%;
+}
+#head{
+    text-align: center;
+    border-bottom:5px solid  rgb(203, 31, 155);
+    border-top: 5px solid rgb(203, 31, 155);
+    border-left: 5px solid rgb(203, 31, 155);
+    border-right: 5px solid rgb(203, 31, 155);
+    background-color: rgb(230, 135, 209);
+    font-size: 40px;
+}
+#Head1{
+    text-align: center;
+    background-color: rgb(230, 135, 209);
+    border-bottom:5px solid  rgb(203, 31, 155);
+    font-size: 40px;
+    border-top: 5px solid rgb(203, 31, 155);
+    border-left: 5px solid rgb(203, 31, 155);
+    border-right: 5px solid rgb(203, 31, 155);
+}
+
+#main{
+    width: auto;
+    height: 99vh;
+}
+#leftdiv{
+    width: 64.90%;
+    height: 100%;
+    float: left ;
+    /* border: 2px solid rgb(203, 31, 155); */
+}
+#rightdiv{
+    width: 33.90%;
+    float: left;
+    height: 92%;
+    /* border: 5px solid rgb(146, 231, 18); */
+    text-align: right;
+    margin-left: 7px;
+    display: none;
+}
+#main_head{
+    text-align: center;
+    /* border-bottom:2px solid  rgb(203, 31, 155);; */
+}
+#equation,#inputbox{
+    width: 98%;
+    margin-left: 5px;
+    margin-top: 4px;
+    text-align: right;
+    border: 0;
+    border-bottom: 2px solid rgb(16, 183, 124);
+    border-radius: 10px;
+}
+#inputbox{
+    height: 70px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 2px;
+    background-color: rgb(41, 229, 123);
+}
+#equation{
+    height: 40px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    background-color: rgb(147, 244, 198);
+}
+#btn button{
+    width: 23.98%;
+    height:67px ;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+.btncolor,.btncolor2{
+    background-color: rgb(91, 228, 235);
+    border-radius: 8px;
+    margin: 4px,2px;
+    margin-left: 5px;
+    margin-bottom: 2px;
+    margin-top: 4px;
+    border: none;
+}
+/* for icon */
+.btncolor2{
+    padding: auto;
+}
+.btncolor1{
+    background-color: rgb(110, 235, 225);
+    border-radius: 8px;
+    margin: 4px,2px;
+    margin-left: 5px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    border: none;
+
+}
+/* :hover */
+#btn button:hover{
+    background: rgb(149, 190, 227);
+}
+#btn button:active{
+    background: rgb(71, 234, 137);
+}
+
+/* right side of calculator */
+#History_body{
+    margin-left: 2px;
+    /* border: 5px solid rgb(183, 60, 60); */
+    margin-top: 5px;
+    overflow: scroll;
+    height: 452px;
+}
+
+
+#clearhistory{
+    margin-top: 5px;
+    margin-bottom: 4px;
+    margin-right: 4px;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+#clean:hover{
+    background-color: rgb(255, 0, 0);
+}
+#clean{
+    border: none;
+}
+/* #clearhidtory button:hover{
+    background-color: rgb(114, 19, 221);
+} */
+
+.clock{
+    margin:auto;
+}
